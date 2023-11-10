@@ -2,7 +2,7 @@
   "name": "todoapp-vue3",
   "description": "Basic ToDo App with Vue3",
   "author": "Murat İKİLİK <ikilikmurat@yandex.com.tr>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",

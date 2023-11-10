@@ -4,7 +4,7 @@ import { computed, onMounted, ref } from 'vue';
 const STORAGE_KEY = 'todoapp-vue3'
 
 const newTodo = ref("");
-const todoList = ref(JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultData);
+const todoList = ref([]);
 
 const selectedFilter = ref('all');
 const filteredList = computed(() => filters[selectedFilter.value](todoList.value))
@@ -49,6 +49,11 @@ function saveData() {
   let data = JSON.stringify(todoList.value);
   localStorage.setItem(STORAGE_KEY, data);
 }
+
+onMounted(() => {
+  todoList.value = JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultData
+});
+
 </script>
 
 <template>
