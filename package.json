@@ -1,6 +1,13 @@
 {
-  "name": "vite",
-  "version": "0.0.0",
+  "name": "todoapp-vue3",
+  "description": "Basic ToDo App with Vue3",
+  "author": "Murat İKİLİK <ikilikmurat@yandex.com.tr>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nordmurat/todoapp-vue3.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +19,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2"
   }
 }

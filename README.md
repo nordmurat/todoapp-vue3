@@ -1,21 +1,41 @@
-# Vue 3 + Vite
+## Vue 3 Todo App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple Todo application built using Vue 3.
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Live Preview
 
-## Deploy Your Own
+Live link: [https://todoapp-vue3.vercel.app/](https://todoapp-vue3.vercel.app/)
 
-Deploy your own Vite project with Vercel.
+## Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite)
+*   Add new tasks to the list
+*   Mark tasks as completed
+*   Edit existing tasks
+*   Delete tasks from the list
+*   Clear all completed tasks at once
 
-_Live Example: https://vite-vue-template.vercel.app_
+## Installation
 
-### Deploying From Your Terminal
+1.  Clone the repository:
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+```bash
+git clone https://github.com/nordmurat/todoapp-vue3.git
+```
 
-```shell
-$ vercel
+2.  Navigate to the project directory:
+
+```bash
+cd todoapp-vue3
+```
+
+3.  Install dependencies:
+
+```bash
+npm install
+```
+
+4.  Run the development server:
+
+```bash
+npm run dev
 ```
