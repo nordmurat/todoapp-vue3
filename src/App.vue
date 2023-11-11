@@ -72,7 +72,7 @@ onMounted(() => {
   <TransitionGroup tag="ul" name="fade">
     <li v-for="(todo, index) in filteredList" :key="index">
       <span @click="doneTodo(todo)" :class="{ done: todo.done }">{{ todo.content }}</span>
-      <button @click="removeTodo(index)">X</button>
+      <button @click="removeTodo(index)">×</button>
     </li>
   </TransitionGroup>
   <h4 v-if="todoList.length < 1">Empty list.</h4>
@@ -178,7 +178,7 @@ body {
         }
 
         .done {
-          text-decoration: line-through;
+          text-decoration: line-through $secondTextColor;
         }
 
         button {

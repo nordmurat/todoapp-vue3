@@ -10,9 +10,7 @@ Live link: [https://todoapp-vue3.vercel.app/](https://todoapp-vue3.vercel.app/)
 
 *   Add new tasks to the list
 *   Mark tasks as completed
-*   Edit existing tasks
 *   Delete tasks from the list
-*   Clear all completed tasks at once
 
 ## Installation
 
